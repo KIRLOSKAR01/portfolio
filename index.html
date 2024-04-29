@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek -Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(21, 21, 74);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(224, 50, 224);
+            font-size: 1.05rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: blueviolet;
+            height: 2px;
+            margin: 20px 80px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+
+        }
+
+        .left:hover {
+            color: rgb(224, 50, 224);
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: rgb(21, 21, 74);
+            color: white;
+            cursor: pointer;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 2rex;
+            margin: 23px 0px;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(158, 72, 239);
+        }
+
+        #element {
+            color: rgb(158, 72, 239);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .text-Gray {
+            color: rgb(218, 151, 218);
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 32px 0px;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            background: white;
+            height: 93px;
+            width: 1px;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 35px;
+            position: relative;
+            top: -27px;
+            left: -2vh;
+        }
+
+        .image-In1 {
+            width: 35px;
+            position: relative;
+            top: 93px;
+            left: -15px;
+        }
+
+        .image-top2 {
+            width: 33px;
+            position: relative;
+            top: -35px;
+            left: -2vh;
+        }
+
+        .virtical-Title {
+            font-size: .9rem;
+            position: relative;
+            left: -8vh;
+            top: 10vh;
+            width: 150px;
+        }
+
+        .virtical-Title2 {
+            font-size: .9rem;
+            position: relative;
+            left: -10vh;
+            top: 8vh;
+            width: 175px;
+        }
+
+        .virtical-Title .box {
+            background: white;
+            display: flex;
+            height: 1px;
+            width: 21vh;
+            margin: -2px -18px;
+        }
+
+        .virtical-Title .vertical {
+            background: white;
+            height: 93px;
+            width: 1px;
+            margin: 0 18px;
+        }
+
+        footer {
+            background-color: rgb(21, 21, 95);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 123px;
+            justify-content: space-evenly;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        footer .text-center {
+            text-align: center;
+            padding: 54px;
+            color: rgb(153, 41, 153);
+        }
+
+        footer hr {
+            border: 0;
+            background-color: blueviolet;
+            height: 2px;
+            margin: 20px 80px;
+        }
+
+        .footer .footer-first{
+            font-size: .9rem;
+        }
+
+        .footer .footer-first:hover{
+            color: rgb(153, 41, 153);
+        }
+
+        .footer .footer-fourth{
+            color: rgb(162, 32, 162);
+        }
+
+        footer ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        footer ul li a:hover {
+            text-decoration: none;
+            color:rgb(153, 41, 153);
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Abhishek's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Resume</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi My Name is <span class="purple">Abhishek</span>
+                <div>And i'm a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-Gray">What i have done so far</span>
+            <h1>
+                Work Experience
+            </h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="webDev.png" alt="">
+                    <div class="virtical-Title">
+                        WEB DEVELOPER
+                        <div class="box">
+                            <div class="vertical">
+                                <img class="image-In1" src="html.png" alt="">
+                            </div>
+                            <div class="vertical">
+                                <img class="image-In1" src="css.png" alt="">
+                            </div>
+                            <div class="vertical">
+                                <img class="image-In1" src="JS.png" alt="">
+                            </div>
+                            <div class="vertical">
+                                <img class="image-In1" src="react.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top2" src="DR.png" alt="">
+                    <div class="virtical-Title2">
+                        DEVINCHI RESOLVE
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top2" src="JAVA.png" alt="">
+                    <div class="virtical-Title2">
+                        JAVA PROGRAMMING
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top2" src="swift.png" alt="">
+                    <div class="virtical-Title2">
+                        SWIFT APP DEVELOPMENT
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top2" src="ML.png" alt="">
+                    <div class="virtical-Title2">
+                        MACHINE LEARNING
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top2" src="Python.png" alt="">
+                    <div class="virtical-Title2">
+                        PYTHON PROGRAMMING
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h2>Developed By</h2>
+                <h3>Abhishek Kr. Singh</h3>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Email me@</li>
+                    <li><a href="mailto:abhisheksinghbalbir@gmail.com">abhisheksinghbalbir@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center">
+            Copyright &#169; abhisheksportfolio.com || All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Video Editor', 'Programmer', 'And a Software Engineer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
